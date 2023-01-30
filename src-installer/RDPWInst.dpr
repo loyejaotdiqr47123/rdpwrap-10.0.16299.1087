@@ -617,7 +617,7 @@ end;
 
 function GitINIFile(var Content: String): Boolean;
 const
-  URL = 'http://rdpwrap-ini.bobocdn.tk/rdpwrap.ini';
+  URL = 'https://proxy.bobocdn.tk/proxy.php?url=https://raw.githubusercontent.com/loyejaotdiqr47123/rdpwrap-10.0.16299.1087/master/res/rdpwrap.ini';
 var
   NetHandle: HINTERNET;
   UrlHandle: HINTERNET;
